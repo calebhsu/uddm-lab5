@@ -263,10 +263,11 @@ footer[role="contentinfo"] .top {
     color: rgb(143,143,143);
 padding-right: 0;
 }
-    footer[role="contentinfo"] .top a:after {
-        content: " \25B2 ";
-        font-weight: bold;
-    }
+
+footer[role="contentinfo"] .top a:after {
+    content: " \25B2 ";
+    font-weight: bold;
+}
 
 footer[role="contentinfo"] h1 {
     text-align: center
@@ -317,51 +318,30 @@ footer nav[role="navigation"] a {
   nav[role="navigation"] a {
     float: left;
   }
-}
 
-
-/*
-.main {
-  display: table-cell;
-  padding-right: 2.5316456%; /* 24px / 948px 
-/* }
-aside {
-    display: table-cell;
-  width: 300px;
-}
-
-footer[role="contentinfo"] .top {
-  float: right;
-}
-footer[role="contentinfo"] nav {
-    float: left
-}
-
-
-/* HK added CSS */
-
-
-/*  aside{
-    display: block;
-    margin-bottom: 1em;
-    padding: 0 1%;
-    width: auto;
-  }
-  
   aside section{
-        float: left;
-        margin-right: 2%;
-        width: 48%;
+    float: left;
+    margin-right: 3%;
+    width: 47%;
   }
 
   .article-tags {
     clear: both;
+  }
 }
-.ad {
-  text-align: center;
-  padding-top: 2.5em;
-}    
 
-/* end HK added CSS */
-
-
+@media all and (min-width: 960px) {
+  .main {
+    float: left;
+    width: 65.8227848%; /* 624px/948 */
+    max-width: 36em;
+  }
+  aside {
+    float: right;
+    width: 31.6455696%; /* 300px/948 */
+  }
+  aside section {
+    float: right;
+    width: 100%;
+  }
+}
