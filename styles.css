@@ -310,6 +310,15 @@ footer nav[role="navigation"] a {
   }
 }
 
+@media all and (min-width: 860px) {
+  nav[role="navigation"] li {
+    float: left;
+  }
+  nav[role="navigation"] a {
+    float: left;
+  }
+}
+
 
 /*
 .main {
@@ -320,27 +329,14 @@ aside {
     display: table-cell;
   width: 300px;
 }
-.slats li {
-    float: left;
-  margin-right: 2.5316456%; /* 24px / 948px */
-  /* width: 31.6455696%; /* 300/948 */
-  /* }
-.slats li:last-child {
-    margin-right: 0;
-}
-nav[role="navigation"] li {
-    float: left;
-}
 
-nav[role="navigation"] a {
-  float: left;
-}
 footer[role="contentinfo"] .top {
   float: right;
 }
 footer[role="contentinfo"] nav {
     float: left
 }
+
 
 /* HK added CSS */
 
